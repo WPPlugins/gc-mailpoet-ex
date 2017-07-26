@@ -1,0 +1,202 @@
+/* import resources */
+/* common vars */
+/* c: color / bg: background / err: error  */
+/*@defc_bodycolor_light:  #999999;*/
+/* a: a3be2d; */
+/* ENGINE */
+/* common styling functions: sf */
+/* core functions: cf */
+/* base core functions: bcf */
+/* integration namespace */
+.INT_GC_MAILPOET_EX .blockheader {
+  /* inside ad block */
+
+  /* end inside ad block */
+
+}
+.INT_GC_MAILPOET_EX .blockheader a.opener {
+  float: left;
+}
+.INT_GC_MAILPOET_EX .blockheader .ad {
+  float: right;
+}
+.INT_GC_MAILPOET_EX .blockheader .ad .mailpoetblock {
+  margin: 33px 0 0;
+  background: white;
+  height: 30px;
+  line-height: 30px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+.INT_GC_MAILPOET_EX .blockheader .ad .mailpoetblock .extensionblock {
+  display: block;
+  float: left;
+  border-right: 1px solid #eeeeee;
+  height: 22px;
+  margin: 4px 8px;
+  padding-right: 8px;
+}
+.INT_GC_MAILPOET_EX .blockheader .ad .mailpoetblock .extensionblock .extension_logo {
+  background: url('../images/gc-mailpoet-ex-logo-small.png') top left no-repeat;
+  width: 146px;
+  height: 16px;
+  margin-top: 2px;
+}
+.INT_GC_MAILPOET_EX .blockheader .ad .mailpoetblock a,
+.INT_GC_MAILPOET_EX .blockheader .ad .mailpoetblock a:hover {
+  display: block;
+  float: left;
+  border: none;
+  background: none;
+  margin: 0;
+}
+.INT_GC_MAILPOET_EX .blockheader .ad .mailpoetblock a b,
+.INT_GC_MAILPOET_EX .blockheader .ad .mailpoetblock a:hover b {
+  display: block;
+  float: left;
+  background: url('../images/mailpoet_logo.png') top left no-repeat;
+  width: 88px;
+  height: 22px;
+  margin: 5px 8px 0 0;
+}
+.INT_GC_MAILPOET_EX .blockheader .ad .mailpoetblock a i,
+.INT_GC_MAILPOET_EX .blockheader .ad .mailpoetblock a:hover i {
+  display: block;
+  float: left;
+  font-style: normal !important;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 29px;
+  margin: 1px 8px 0 8px;
+  color: #888888;
+}
+.INT_GC_MAILPOET_EX .blockheader .ad .woolinkblock {
+  text-align: center;
+  font-size: 10px;
+  color: #888888;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.INT_GC_MAILPOET_EX .blockheader .ad .woolinkblock a,
+.INT_GC_MAILPOET_EX .blockheader .ad .woolinkblock a:hover {
+  border: none;
+  background: none;
+  margin: 0;
+  font-weight: 400 !important;
+  font-size: 10px;
+}
+.INT_GC_MAILPOET_EX .blockheader .ad .woolinkblock u {
+  text-decoration: none !important;
+  display: inline-block;
+  padding: 0 6px;
+}
+.INT_GC_MAILPOET_EX .blockcnt {
+  /* leadgen */
+
+}
+.INT_GC_MAILPOET_EX .blockcnt .leadgen .leftcol {
+  width: 380px !important;
+  margin-right: 25px !important;
+}
+.INT_GC_MAILPOET_EX .blockcnt .leadgen .rightcol {
+  width: 380px !important;
+}
+.INT_GC_MAILPOET_EX .blockcnt .leadgen .btntxt {
+  width: 324px !important;
+  float: left;
+}
+.INT_GC_MAILPOET_EX .blockcnt .leadgen .btntxt input {
+  width: 315px !important;
+}
+.INT_GC_MAILPOET_EX .blockcnt .leadgen .alldesc {
+  margin-top: 24px !important;
+}
+.INT_GC_MAILPOET_EX .blockcnt .leadgen .phtxt {
+  width: 324px;
+  float: left;
+}
+.INT_GC_MAILPOET_EX .blockcnt .leadgen .phtxt input {
+  width: 315px;
+}
+.INT_GC_MAILPOET_EX .blockcnt .leadgen .phtxt_counter {
+  float: left;
+  width: 36px;
+  margin-left: 16px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border: 2px solid #dddddd;
+  font-size: 18px;
+  font-weight: 700;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+.INT_GC_MAILPOET_EX .blockcnt .leadgen .ex_item .label {
+  display: block;
+  width: auto;
+  float: none;
+}
+.INT_GC_MAILPOET_EX .blockcnt .leadgen .ex_item select {
+  width: 720px;
+  padding: 2px !important;
+}
+.INT_GC_MAILPOET_EX .blockcnt .leadgen .ex_item .nolist {
+  height: 32px;
+  line-height: 32px;
+  color: #aa0000;
+  font-weight: 700;
+  font-size: 16px;
+}
+.INT_GC_MAILPOET_EX .blockcnt .leadgen .phtxt input,
+.INT_GC_MAILPOET_EX .blockcnt .leadgen select {
+  height: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  border: 1px solid #999999;
+  color: #222222;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 4px;
+}
+.INT_GC_MAILPOET_EX .blockcnt select {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.INT_GC_MAILPOET_EX .blockcnt .itemgroup .ex_item .label {
+  width: auto !important;
+}
+.INT_GC_MAILPOET_EX .blockcnt .itemgroup .ex_item label {
+  height: 26px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #444444;
+  margin-top: 7px;
+}
+.INT_GC_MAILPOET_EX .blockcnt .itemgroup .ex_item label i {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  color: #888888;
+  font-family: sans-serif;
+}
+.INT_GC_MAILPOET_EX .blockcnt .itemgroup .ex_item .edit {
+  margin-bottom: 7px;
+}
+.INT_GC_MAILPOET_EX .blockcnt .itemgroup .ex_item .edit .txt input {
+  width: 752px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  border: 1px solid #999999;
+  color: #222222;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 4px;
+}
